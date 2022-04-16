@@ -11,14 +11,7 @@ public class Bisiesto {
     }
 
 
-    // public int getAnio() {
-    //     return this.anio;
-    // }
-
-    // public void setAnio(int anio) {
-    //     this.anio = anio;
-    // }
-
+    
     public void determinarBisiesto(){
         Scanner entrada = new Scanner(System.in);
         int anio = 0;
@@ -38,7 +31,7 @@ public class Bisiesto {
                 
             } catch (Exception e) {
                 System.out.println("El valor ingresado no es valido!!");
-                break;
+                entrada.next();
             }                        
         }
         
